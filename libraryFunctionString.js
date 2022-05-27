@@ -1,0 +1,10 @@
+var input1= prompt("Enter your first name:");
+var input2=prompt("enter your last name:");
+var fullName= input1.concat(input2);
+var len=fullName.length;
+document.write(len);
+var p= fullName.charAt(2);
+document.write(p);
+var u= fullName.toUpperCase();
+document.write(u);
+document.write(fullName.slice(3,5));
